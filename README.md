@@ -18,10 +18,13 @@ The goal of this repository is not only to read Java topics, but also to underst
 ## Current Modules
 - `equality` → examples for `equals` and `hashCode` contract
 - `immutability` → examples for immutable class design and defensive copying
+- `collections` → examples for List, Set, and Map behaviors including ordering, duplicates, uniqueness, key-value storage, and basic operations
+
 
 ## Module Structure
 - `equality` → demonstrates the difference between `==` and `equals`, and why the `hashCode` contract matters
 - `immutability` → demonstrates how to design immutable classes and protect internal state with defensive copying
+- `collections` → demonstrates List, Set, and Map fundamentals such as ordering, duplicates, uniqueness, key-based access, and common collection operations
 
 
 ## Tech Stack
@@ -43,11 +46,11 @@ At the moment, I am studying and documenting:
 - equality and object comparison
 - immutable object design
 - defensive copying
+- collections fundamentals with List, Set, and Map
 - clean and testable Java code
 
 ## Planned Next Topics
 The next modules planned for this repository are:
-- collections
 - generics
 - streams
 - exception handling
