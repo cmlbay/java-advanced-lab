@@ -9,6 +9,15 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Class description here.
  *
+ * Upper bounded wildcard — ? extends T
+ *
+ * Upper bounded wildcard — ? extends T
+ * The unknown type must be T or a subtype of T
+ * Values can be safely read as T.
+ * You generally cannot add new T values, because the exact subtype is unknown.
+ * Usage idea: “I read values from the source.”
+ *
+ *
  * @author cmlba
  * @version 1.0
  * @since 2026-03-25

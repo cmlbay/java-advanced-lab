@@ -10,6 +10,14 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Class description here.
  *
+ * Lower bounded wildcard — ? super T
+ *
+ * The unknown type must be T or a supertype of T.
+ * This form is mainly suitable for writing/consuming values.
+ * You can safely add T values (and its subtypes in the assignment sense).
+ * But when reading, you cannot safely assume the result is T; Object is the safe type.
+ * Usage idea: “I write values into the target.”
+ *
  * @author cmlba
  * @version 1.0
  * @since 2026-03-25
